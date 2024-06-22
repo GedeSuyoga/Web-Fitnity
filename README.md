@@ -4,7 +4,7 @@ An Amateur First Web Project.
 
 ## Getting Started
 
-Web Fitnity aims to address the challenges of maintaining a healthy and active lifestyle in society. The main issues faced are lack of motivation and support to consistently exercise and limited access to relevant information on fitness and nutrition. Fitnity offers a solution by providing a platform that allows users to connect with sports communities, gain motivation, and access useful fitness tips and information.
+Web Fitnity aims to address the challenges of maintaining a healthy and active lifestyle in society. The main issues faced are lack of motivation and support to consistently exercise and limited access to relevant information on fitness. Fitnity offers a solution by providing a platform that allows users to connect with sports communities, gain motivation, and access useful fitness tips and information.
 
 ## Screenshots
 |![Screenshot 2024-06-22 065751](https://github.com/GedeSuyoga/Web-Fitnity/assets/173435463/a90552b9-fc59-4d70-95cb-d3242dd521bb)|![Screenshot 2024-06-22 065809](https://github.com/GedeSuyoga/Web-Fitnity/assets/173435463/48a7018c-61cf-4fa6-b5c7-bde9bbc11cdd)|
