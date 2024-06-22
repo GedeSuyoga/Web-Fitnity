@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+i {
+    color: #fff;
+    cursor: pointer;
+}
+
+html,
+body {
+    background: #31363f;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    background: #31363f;
+}
+.container main {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container .sidebar {
+    height: 100vh;
+    width: 415px;
+    background-color: #222831;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 10000;
+    transition: all 0.6s ease;
+    gap: 12px;
+}
+
+.container .sidebar .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 24px 24px;
+    justify-content: center;
+}
+
+.container .logo a {
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.3 ease;
+}
+
+.tab1 {
+    padding-left: 12px;
+    padding-right: 4px;
+}
+.gettab {
+    background-color: #76abae;
+    padding: 16px 12px;
+    margin: 24px 12px;
+    border-radius: 10px;
+}
+.eventtab,
+.placestab,
+.logouttab,
+.tipstab {
+    padding: 16px 12px;
+    margin: 24px 12px;
+}
+
+.gettab:hover,
+.eventtab:hover,
+.placestab:hover,
+.logouttab:hover,
+.tipstab:hover {
+    background-color: #074173;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.container main {
+    width: 100%;
+}
+
+.container main header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.search {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchinput {
+    justify-content: center;
+    width: 800px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    border-radius: 10px;
+}
+
+.searchbtn {
+    width: 100px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    border-radius: 5px;
+}
+
+.adddata {
+    justify-content: center;
+    padding: 8px;
+    background-color: #76abae;
+    border-radius: 10px;
+}
+
+.table-wrapper {
+    margin-top: 24px;
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
+}
+.table {
+    border-collapse: collapse;
+    width: 150vh;
+}
+
+/* Table head style */
+.table thead {
+    background-color: #f2f2f2;
+}
+
+.table th {
+    padding: 10px;
+    text-align: center;
+}
+
+.table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #76abae;
+}
+.table td img {
+    width: 128px;
+    height: auto;
+}
+
+/* Table action cell style */
+.table .action {
+    white-space: nowrap;
+}
+
+/* Button style */
+.btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Edit button style */
+.btn-warning {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+/* Delete button style */
+.btn-danger {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.editdelbtn {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.formwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 24px;
+}
+.form,
+.rows {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 12px;
+}
+
+.forminput {
+    width: 600px;
+    height: 32px;
+}
+
+.rows .inputgambar {
+    color: #000000;
+    width: 250px;
+    height: 24px;
+    background-color: rgba(255, 255, 255);
+    justify-content: center;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+}
